@@ -785,7 +785,7 @@ p{
         align-items: center;
     }
     .solutions-open .solutions-text{
-        height: 84px;
+        height: 84px!important;
      }
     .solutions-open .solutions-plus:before{
         transform: rotate(45deg);
