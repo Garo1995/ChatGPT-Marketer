@@ -498,6 +498,8 @@ p{
 .marketers-photo{
     max-width: 488px;
     width: 100%;
+    position: sticky;
+    top: 115px;
 }
 .marketers-items{
     max-width: 632px;
@@ -605,6 +607,10 @@ p{
     }
     .marketers-box{
         height: 100%;
+    }
+    .marketers-photo{
+        position: relative;
+        top: 0;
     }
 }
 @media (max-width: 434px){
@@ -1269,9 +1275,7 @@ p{
 .analytics-fon{
     border-radius: 12px;
     background: #F8F8F8;
-    max-width: 1400px;
     width: 100%;
-    margin: 0 auto;
     position: relative;
 }
 .analytics-fon:after{
